@@ -13,6 +13,8 @@
 		FA528B0124C6E9E9006B8EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA528B0024C6E9E9006B8EF2 /* Assets.xcassets */; };
 		FA528B0424C6E9E9006B8EF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA528B0324C6E9E9006B8EF2 /* Preview Assets.xcassets */; };
 		FA528B0724C6E9E9006B8EF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA528B0524C6E9E9006B8EF2 /* LaunchScreen.storyboard */; };
+		FA528B1124C6EE3E006B8EF2 /* TraficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA528B1024C6EE3E006B8EF2 /* TraficLight.swift */; };
+		FA528B1324C71723006B8EF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA528B1224C71723006B8EF2 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FA528B0324C6E9E9006B8EF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA528B0624C6E9E9006B8EF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA528B0824C6E9E9006B8EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA528B1024C6EE3E006B8EF2 /* TraficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraficLight.swift; sourceTree = "<group>"; };
+		FA528B1224C71723006B8EF2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		FA528AF924C6E9E3006B8EF2 /* TraficLightSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				FA528B1024C6EE3E006B8EF2 /* TraficLight.swift */,
 				FA528AFA24C6E9E3006B8EF2 /* AppDelegate.swift */,
 				FA528AFC24C6E9E3006B8EF2 /* SceneDelegate.swift */,
 				FA528AFE24C6E9E3006B8EF2 /* ContentView.swift */,
+				FA528B1224C71723006B8EF2 /* Extensions.swift */,
 				FA528B0024C6E9E9006B8EF2 /* Assets.xcassets */,
 				FA528B0524C6E9E9006B8EF2 /* LaunchScreen.storyboard */,
 				FA528B0824C6E9E9006B8EF2 /* Info.plist */,
@@ -146,9 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA528B1324C71723006B8EF2 /* Extensions.swift in Sources */,
 				FA528AFB24C6E9E3006B8EF2 /* AppDelegate.swift in Sources */,
 				FA528AFD24C6E9E3006B8EF2 /* SceneDelegate.swift in Sources */,
 				FA528AFF24C6E9E3006B8EF2 /* ContentView.swift in Sources */,
+				FA528B1124C6EE3E006B8EF2 /* TraficLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
